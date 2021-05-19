@@ -8,7 +8,7 @@ public class Runner {
 	static Person Tom = new Person("Tom", 40, "Male");
 	
 	public static void main(String[] args) {
-		Tom.read(new Book("Stuff", "Someone", 56, "Someone"));
+		Tom.read(new Book("Stuff", 56, "Someone"));
 		
 	}
 }
