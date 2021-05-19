@@ -1,4 +1,4 @@
-package qa;
+package com.qa.practice.javabeginner.stringpractice;
 
 public class StringPractice {
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class StringPractice {
 //		System.out.println(sUpper.substring(25,31) + sUpper.substring(10,24));
 //		System.out.println(sUpper.substring(0,1));
 		
-		finder("Hello this is a very long string", "Hel");
+		System.out.println(finder("Hello this is a very long string", "Hel"));
 		
 	}
 	
@@ -23,6 +23,10 @@ public class StringPractice {
 			if (temp.equals(" ")) {
 				count++;
 			}
+		}
+		
+		if (str.length() == 0) {
+			count = 0;
 		}
 		
 		System.out.println(count);
@@ -54,19 +58,18 @@ public class StringPractice {
 		System.out.println(str.substring(0,currSpace));
 	}
 	
-	public static void finder(String message, String finder) {
+	public static boolean finder(String message, String finder) {
 		
 		int lengthOfFinder = finder.length();
-		boolean status = false;
+		
 		for (int i = 0; i < message.length() - lengthOfFinder + 1; i++) {
 			String temp = message.substring(i, i+lengthOfFinder);
 			if (temp.equals(finder)) {
-				status = true;
-				break;
+				return true;
 			}
 		}
 		
-		System.out.println(status);
+		return false;
 		
 	}
 }

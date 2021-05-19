@@ -1,4 +1,4 @@
-package qa;
+package com.qa.practice.javabeginner.arrays;
 
 public class arrayPractice {
 	public static void main(String[] args) {

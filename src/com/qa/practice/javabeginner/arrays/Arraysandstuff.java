@@ -1,6 +1,6 @@
-package qa;
+package com.qa.practice.javabeginner.arrays;
 
-public class Runner {
+public class Arraysandstuff {
 	
 	public static void main(String[] args) {
 //		doWhileStatement();

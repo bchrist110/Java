@@ -1,4 +1,4 @@
-package qa;
+package com.qa.practice.javabeginner.conditionals;
 
 public class results2 {
 	int physics;

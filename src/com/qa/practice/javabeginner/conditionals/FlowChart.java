@@ -1,4 +1,4 @@
-package qa;
+package com.qa.practice.javabeginner.conditionals;
 
 public class FlowChart {
 	public static void main (String[] args) {
