@@ -14,6 +14,7 @@ public class Person {
 		this.gender = gender;
 	}
 	
+	
 	public void read(Book book) {
 		System.out.println(this.name + " is reading the book titled: " + book.getTitle());
 	}
